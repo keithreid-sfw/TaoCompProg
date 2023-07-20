@@ -1,5 +1,61 @@
 Algorithm E (Euclid's Algorithm) Given two positive integers _m_ and _n_ find their _gratst common divisor_, that is,  the largest positive integer that evenly divides both _m_ and _n_.
 
-exanple: 16 and 24 have gcd 8
+example: 16 and 24 have gcd 8
 
   (2 yes 3 no 4 yes 5 no 6 no 7 no 8 yes and 9 is too big because 2 yes so common divisors are 2,4,8 and 8 is greatest)
+
+Algo E
+
+E1. [Find remainder] Divide m by n and let _r_ be the remainder
+  we will have 0 =< r < n     # convention that I write =< for glt not <= to avoid conf with arrow
+  e.g. 24/16 is 1 r 8
+E2. [Is it zero] If r = 0
+  the algorithm terminates; n is the answer # because in the first case n is a divisor of m 
+                                            # and the codivisor is one so any other divisor 
+                                            # has a greater codivisor and must be smaller than n []
+
+                                            # not implicit progression to E3.
+E3. [Reduce] Set m <-n, n <- r, and go back to step E1.
+
+taking m=24, n=16
+
+loop 0 # I might change how I count things
+
+E1. m/n = 24/16 = 1 r8
+E2. it is not zero
+E3. set m <-n;
+      m = 16
+      n = 8
+
+E1. m/n = 16/8 = 2 r0
+E2. is not zero; terminate with n=8 as the answer
+E3. set m <-n;
+      m = 16
+      n = 8
+
+# funsies
+
+1. m < n ILLEGAL cant intger divide like that you get a fraction
+
+
+2. m positive, m.abs() > n.abs(), n negative
+
+E1. m/n = 24/-16 = -1 r-8
+E2. it is not zero
+E3. set m <-n;
+      m = -16
+      n =  -8
+
+E1. m/n = -16/-8 = 1 r8
+E2. terminate with n=8 as answer
+
+E3. set m <-n;
+      m = -16
+      n =  -8
+
+
+
+
+
+
+
