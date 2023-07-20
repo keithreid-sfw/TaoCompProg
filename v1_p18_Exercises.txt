@@ -122,4 +122,18 @@ they use Sn in notation not Tn
 
 Sn = n*(n+1) / 2
 
+  t(n) = 1  + 2   + 3       + ... +n-1 + n
+  reverse
+  t(n) = n  + n-1 + n-2     + ... + 2  + 1
+  add these lines and notice there are n terms
+
+2*t(n) =   (n+1) + (n+1) + (n+1) +...+ (n+1)
+  so write it this way 
+
+2*t(n) = n*(n+1)
+  div bith sides by two
+  t(n) = [n*(*n+1)]/2
+
+
+
 
