@@ -1,0 +1,51 @@
+1 Q rearrange four variables abcd to bcda by a sequence of replacements in fewest n of replacements
+  A move a if allowed
+
+2 Q prove m is greater than n at beginning of E1 except possibly the frist time E1 occurs
+  A n is initilsed as a remainder and remainders are smaller than numerators
+
+3 Q Change E so that trivial replacements like m <- n are avoided, write in style of E, call F
+A
+
+Algo F
+
+    DEK did this
+
+    F1. m = remainder m/n
+    F2. if m == 0
+          return n
+    F3. n = remainder n/m
+    F4. if n == 0
+          return m
+        else 
+          goto F1.
+
+    F1. m = remainder m/n
+          = r(24/16)
+          = 8 
+    F2. if m == 0
+          FALSE
+          ...
+    F3. n = remainder n/m
+    F4. if n == 0
+          TRUE
+          return m
+          RETURN 8
+        else 
+          ...
+
+    BRILIIANT
+
+6 Q What is T5, average number of times E1 is 
+  A ok what is the domain of m? 
+    0,1,2,3,4,5,6,7,8... \inf reduces to 
+    m+1,+2,+3,+4,+5
+    and count from there, cheat asnwer is 2.6
+
+7 Q Let Um = average n times E1 is executedif m is known and n is all positive ints
+    IS Um related to Tm? 
+    I woudl say they are the same
+    But what I missed is that U has all ints and T has only those greater
+    
+  
+      
