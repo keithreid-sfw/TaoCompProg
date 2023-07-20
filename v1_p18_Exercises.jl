@@ -13,4 +13,5 @@
 
 7 Q Formulate and prove by ionduction a rule for the sums of squares 
 
-    ```1<sup>2<\sup>, 2^2 - 1^2, 3^2 - 2^2 + 1^2,``` 
+    1^2, 
+    2^2 - 1^2, 3^2 - 2^2 + 1^2,``` 
