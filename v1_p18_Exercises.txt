@@ -86,7 +86,16 @@ _________         |    |                 #
 ___         |     |    |                 ###
    |      # |     |  # |           --->  ####
 
-{\displaystyle T_{n}={\frac {n(n+1)}{2}}}
+
+which are proven and obvious to be Tn = n(n+1) / 2
+
+and that gives us a) in the inductions
+But THAT is not the question
+The question is to prove that b)
+
+
+
+
 
 
 
