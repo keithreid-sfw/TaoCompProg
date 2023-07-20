@@ -19,7 +19,7 @@ E3. [Reduce] Set m <-n, n <- r, and go back to step E1.
 
 taking m=24, n=16
 
-loop 0 # I might change how I count things
+loop 0 # I might change how I count iterators - I like 1 more but DEK uses 0 at times
 
 E1. m/n = 24/16 = 1 r8
 E2. it is not zero
@@ -35,12 +35,12 @@ E3. set m <-n;
 
 # funsies
 
-1. m < n ILLEGAL cant intger divide like that you get a fraction
+1. m < n ILLEGAL cant intger divide like that you get a fraction and enter float domain
 
 
 2. m positive, m.abs() > n.abs(), n negative
 
-E1. m/n = 24/-16 = -1 r-8
+E1. m/n = 24/-16 = -1 r-8 # must be because -1.5 as a ratio is (-1 - 0.5)
 E2. it is not zero
 E3. set m <-n;
       m = -16
@@ -51,7 +51,7 @@ E2. terminate with n=8 as answer
 
 E3. set m <-n;
       m = -16
-      n =  -8
+      n =  -8 # which intuitively is right because the signs are different
 
 
 
