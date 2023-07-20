@@ -87,13 +87,23 @@ ___         |     |    |                 ###
    |      # |     |  # |           --->  ####
 
 
-which are proven and obvious to be Tn = n(n+1) / 2
+which are Tn = n(n+1) / 2
 
 and that gives us step
+
 a) in the inductions 
 which is our guess at the recurrence
+and proving it for T(1)
 
-But THAT is not the question
+its true that 
+
+1^2-0^2 = 1
+
+and that 
+
+1(1+1)/2 = 1
+
+But THAT is not the question solved
 
 The question is to prove step
 b) in the inductions namely that
@@ -102,10 +112,14 @@ T(1) being true implies T(n-1)
 or
 T(1) being true implies T(n+1) 
 
+and we do well to read "Concrete Mathematics" by GKP 2nd ed
 
+it shows at 1.4 how to prove this
+with reference to Gauss at 9yo
+and Archimedes
 
+they use Sn in notation not Tn
 
-
-
+Sn = n*(n+1) / 2
 
 
