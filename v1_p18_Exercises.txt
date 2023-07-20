@@ -9,7 +9,7 @@
   2. if it ain't then it a product of two factors
   3. apply 1. to each of the factors until to get down to primes
 
-7 Q Formulate and prove by ionduction a rule for the sums of squares 
+7 Q Formulate and prove by induction a rule for the sums of squares 
 
     1^2, # I suppose this is 1^2 - 1^0
     2^2 - 1^2
