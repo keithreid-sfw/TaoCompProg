@@ -89,10 +89,18 @@ ___         |     |    |                 ###
 
 which are proven and obvious to be Tn = n(n+1) / 2
 
-and that gives us a) in the inductions
-But THAT is not the question
-The question is to prove that b)
+and that gives us step
+a) in the inductions 
+which is our guess at the recurrence
 
+But THAT is not the question
+
+The question is to prove step
+b) in the inductions namely that
+
+T(1) being true implies T(n-1) 
+or
+T(1) being true implies T(n+1) 
 
 
 
