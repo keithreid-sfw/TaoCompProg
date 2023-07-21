@@ -16,16 +16,21 @@ on the fly:
 v1_p25 
 
 1 Q smallest positive rational?
-  A 1/inf
+  A 1/inf, i.e. NaN i.e. there ain't one
 
 3 Q what is (-3)^-3
   A its the reciprocal of the cube of -3 
     so it's one over twenty seven
 
 4 Q what is (0.125)^-2/3
-  cheat answer is 4
+
   A the operand is an eighth
-      the reciprocal of 2^3 as it were
-    the operation is the reciprocal 
+    the reciprocal of 2^3 as it were
+    the minus power means reciprocate
+    so it becomes 8 after that
+    and two thirds means get the cube root of the square
+    which is the cube root 64
+    that is 4 
+
     
 
