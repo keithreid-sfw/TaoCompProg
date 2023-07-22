@@ -32,5 +32,8 @@ v1_p25
     which is the cube root 64
     that is 4 
 
+<pretty damiliar with binomials, come back to Striling later after reading Strang
+leafed through algo analysis, generating functions, fib, O-notation, to p123 which is where assembler starts
+
     
 
