@@ -9,9 +9,11 @@ This is an ongoing recreational effort in whatever language I want, going throug
 
 It is for my own pleasure and may be flawed and may never get anywhere.
 
-Please do not judge. Push corrections if you like.
+Please do not judge. Push corrections if you like. Sometimes it is easier for me to edit this README on the fly on my phone. So it acts like a 'buffer' p216 :)
 
 on the fly:
+
+Ch.1 continued 
 
 v1_p25 
 
