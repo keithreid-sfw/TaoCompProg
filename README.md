@@ -32,8 +32,9 @@ v1_p25
     which is the cube root 64
     that is 4 
 
-<pretty familiar with binomials, come back to Striling later after reading Strang
-leafed through algo analysis, generating functions, fib, O-notation, to s1.3 p123 which is where assembler starts
+<pretty familiar with binomials, come back to Striling later after reading Strang leafed through algo analysis, generating functions, fib, O-notation, to s1.3 p123 which is where assembler starts
 
+leafed theough MIX end on through Chap 1 
+e.g. work on permutations at 1.3.3 quite like my thesis work amd 1.4 subroutines quite like functions/multiple dispatch and thebIO stuffnis intersting but I biffed along to INFORMATION STRUCTURES
     
 
