@@ -64,6 +64,8 @@ Queue is insertions at one end and deletions at the other
 Deque (double ended queue) has insertions and deletions at both ends. 
 
 1. intuitively yes because it has two ends which between them can serve both stack and queue behavious. in expicit detail calling Ox the output restricted end, for stack behaviour use the IO of the other end and for queue use the I of Ox.
-2. intuitively I said yes any permutation is possible wrong because specifically 2 can only precede 3 if itbis removed from the stack before 3 has been inserted
+2. intuitively I said yes any permutation is possible... wrong because specifically 2 can only precede 3 if it is removed from the stack before 3 has been inserted
 123456 into 154623 on Fig 1
+3. there have to be a number of outs less than or eaual to stack elements so far, so X can never exceed S as we read left to right
+4. i got this wrong writing simply 2^(a-1) on the basis that each move is a dichotomous choice either S or X and S goes first. 1 has 1 SX. 12 21 has two SXSX and SSXX.  the question as set is broader than that. 
 
