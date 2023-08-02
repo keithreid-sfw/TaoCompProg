@@ -50,3 +50,7 @@ notes 2.1 Information Structures
   
 Exercises 
 p.236
+
+1. 4 denoting spades and Lambda
+2. singleton pointing to itself? no. DEK says when V is a linkmother than lambda
+3. first make the old top card the new card then change TOP to point to second car 
