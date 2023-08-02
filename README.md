@@ -39,4 +39,14 @@ v1_p25
 leafed theough MIX end on through Chap 1 
 e.g. work on permutations at 1.3.3 quite like my thesis work amd 1.4 subroutines quite like functions/multiple dispatch and thebIO stuffnis intersting but I biffed along to INFORMATION STRUCTURES
     
-
+notes 2.1 Information Structures
+- the address of a node is the memeory location of its first word 
+- Lambda denotes null link or ground
+- Top card indicated by a link from TOP
+- fields within nodes
+    e.g. CONTENTS(LOC(V)) = V
+    as we have met in dancing links
+- watch out for MIXAL referring to addresses and algo notation referring to variables 
+  
+Exercises 
+p.236
