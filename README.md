@@ -63,3 +63,7 @@ Stack is linear list where all deletions and insertions are made at one end
 Queue is insertions at one end and deletions at the other
 Deque (double ended queue) has insertions and deletions at both ends. 
 
+1. intuitively yes because it has two ends which between them can serve both stack and queue behavious. in expicit detail calling Ox the output restricted end, for stack behaviour use the IO of the other end and for queue use the I of Ox.
+2. yes any permutation is possible
+123456 into 154623 on Fig 1
+
