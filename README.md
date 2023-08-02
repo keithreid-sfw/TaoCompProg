@@ -54,4 +54,12 @@ p.236
 1. 4 denoting spades and Lambda
 2. singleton pointing to itself? no. DEK says when V is a link other than lambda - commenting that the CONTENTS(V) implies V is a link here 
 3. first make the old top card the new card then change TOP to point to second card
-4. assign new card to point to lambda, and if needed, assign the NEXT field of the old bottom card to point to the new bottom card, and make TAG the right value on the bottom card which is 1 for face down and  need to define whether we also flip the second last card from 1 to 0 by switching its TAG  
+4. assign new card to point to lambda, and if needed, assign the NEXT field of the old bottom card to point to the new bottom card, and make TAG the right value on the bottom card which is 1 for face down and  need to define whether we also flip the second last card from 1 to 0 by switching its TAG
+
+Chap 2.2
+2.2.1 stacks queues deques
+
+Stack is linear list where all deletions and insertions are made at one end
+Queue is insertions at one end and deletions at the other
+Deque (double ended queue) has insertions and deletions at both ends. 
+
