@@ -52,5 +52,6 @@ Exercises
 p.236
 
 1. 4 denoting spades and Lambda
-2. singleton pointing to itself? no. DEK says when V is a linkmother than lambda
-3. first make the old top card the new card then change TOP to point to second car 
+2. singleton pointing to itself? no. DEK says when V is a link other than lambda - commenting that the CONTENTS(V) implies V is a link here 
+3. first make the old top card the new card then change TOP to point to second card
+4. assign new card to point to lambda, and if needed, assign the NEXT field of the old bottom card to point to the new bottom card, and make TAG the right value on the bottom card which is 1 for face down and  need to define whether we also flip the second last card from 1 to 0 by switching its TAG  
